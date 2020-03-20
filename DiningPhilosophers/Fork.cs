@@ -6,9 +6,13 @@ namespace DiningPhilosophers
 {
     class Fork
     {
-        int number;
+        int Number { get; }
         public bool isFree { get; private set; }
 
+        public Fork(int number)
+        {
+            this.Number = number;
+        }
         public bool TakeFork()
         {
             if(isFree)

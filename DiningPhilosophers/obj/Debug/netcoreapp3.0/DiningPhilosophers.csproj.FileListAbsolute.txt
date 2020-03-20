@@ -1,0 +1,11 @@
+C:\Users\Julia\source\repos\DiningPhilosophers\DiningPhilosophers\bin\Debug\netcoreapp3.0\DiningPhilosophers.exe
+C:\Users\Julia\source\repos\DiningPhilosophers\DiningPhilosophers\bin\Debug\netcoreapp3.0\DiningPhilosophers.deps.json
+C:\Users\Julia\source\repos\DiningPhilosophers\DiningPhilosophers\bin\Debug\netcoreapp3.0\DiningPhilosophers.runtimeconfig.json
+C:\Users\Julia\source\repos\DiningPhilosophers\DiningPhilosophers\bin\Debug\netcoreapp3.0\DiningPhilosophers.runtimeconfig.dev.json
+C:\Users\Julia\source\repos\DiningPhilosophers\DiningPhilosophers\bin\Debug\netcoreapp3.0\DiningPhilosophers.dll
+C:\Users\Julia\source\repos\DiningPhilosophers\DiningPhilosophers\bin\Debug\netcoreapp3.0\DiningPhilosophers.pdb
+C:\Users\Julia\source\repos\DiningPhilosophers\DiningPhilosophers\obj\Debug\netcoreapp3.0\DiningPhilosophers.csprojAssemblyReference.cache
+C:\Users\Julia\source\repos\DiningPhilosophers\DiningPhilosophers\obj\Debug\netcoreapp3.0\DiningPhilosophers.AssemblyInfoInputs.cache
+C:\Users\Julia\source\repos\DiningPhilosophers\DiningPhilosophers\obj\Debug\netcoreapp3.0\DiningPhilosophers.AssemblyInfo.cs
+C:\Users\Julia\source\repos\DiningPhilosophers\DiningPhilosophers\obj\Debug\netcoreapp3.0\DiningPhilosophers.dll
+C:\Users\Julia\source\repos\DiningPhilosophers\DiningPhilosophers\obj\Debug\netcoreapp3.0\DiningPhilosophers.pdb

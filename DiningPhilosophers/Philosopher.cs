@@ -26,14 +26,15 @@ namespace DiningPhilosophers
 
         public void Eat()
         {
-            hasLeft = left.TakeFork();
-            hasRight = right.TakeFork();
-            
-            if(hasLeft && hasRight)
+            while (!hasLeft || !hasRight)
             {
-                Console.WriteLine($"Philosopher {Number} is eating");
-                Thread.Sleep(20);
+                hasLeft = left.TakeFork();
+                hasRight = right.TakeFork();
             }
+
+             Console.WriteLine($"Philosopher {Number} is eating");
+             Thread.Sleep(20);
+
 
             hasLeft = left.ReturnFork();
             hasRight = right.ReturnFork();
