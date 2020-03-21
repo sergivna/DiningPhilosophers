@@ -12,6 +12,7 @@ namespace DiningPhilosophers
         public Fork(int number)
         {
             this.Number = number;
+            isFree = true;
         }
         public bool TakeFork()
         {

@@ -8,14 +8,12 @@ namespace DiningPhilosophers
 {
     class Philosopher
     {
-        int Number { get;}
-        Fork left;
-        Fork right;
+        public int Number { get;}
+        public Fork left;
+        public Fork right;
 
         bool hasLeft;
         bool hasRight;
-
-        Thread thread;
 
         public Philosopher(int number, Fork left, Fork right)
         {
@@ -23,23 +21,24 @@ namespace DiningPhilosophers
             this.left = left;
             this.right = right;
         }
+        
+        public void TakeForks()
+        {
+            hasLeft = left.TakeFork();
+            hasRight = right.TakeFork();
 
+            if (!hasLeft || !hasRight)
+                throw new Exception("smth is wrong");
+        }
         public void Eat()
         {
-            while (!hasLeft || !hasRight)
-            {
-                hasLeft = left.TakeFork();
-                hasRight = right.TakeFork();
-            }
-
-             Console.WriteLine($"Philosopher {Number} is eating");
-             Thread.Sleep(20);
-
+            Console.WriteLine($"Philosopher {Number} is eating");
+            Thread.Sleep(10000);
 
             hasLeft = left.ReturnFork();
             hasRight = right.ReturnFork();
 
-            Console.WriteLine("Philosopher finished");
+            Console.WriteLine($"Philosopher {Number} finished dinner");
         }
     }
 }
